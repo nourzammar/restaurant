@@ -1,0 +1,80 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Set a background color */
+    body {
+    background-color: #e5e5e5;
+    }
+
+    /* Center the content vertically */
+    .page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 120vh;
+    }
+
+    /* Set the background color for the page container */
+    .page-container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    }
+
+    /* Style the table */
+    .table-data2 {
+    width: 100%;
+    border-collapse: collapse;
+    }
+
+    .table-data2 th, .table-data2 td {
+    padding: 20px 25px;
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    }
+
+    .table-data2 th {
+    background-color: #1a3a52;
+    color: #ffffff;
+    }
+
+    /* Style the title */
+    .title-5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+
+    /* Style the links */
+    a {
+    color: #e5e5e5;
+    text-decoration: none;
+    }
+
+  
+            /* Styling for the aside container */
+.menu-sidebar {
+background-color: #1a3a52;
+width: 250px;
+color: #e5e5e5
+
+}
+
+
+
+/* Styling for the navigation links */
+.navbar__list {
+padding: 0;
+list-style: none;
+}
+
+.navbar__list li {
+margin: 0;
+}
+.navbar__list a:hover {
+background-color: #e5e5e5;
+transition:  1s ;
+}

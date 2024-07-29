@@ -1,0 +1,92 @@
+.menu-sidebar {
+    background-color: #1a3a52;
+    width: 250px;
+    height: 100%;
+    color: #ffffff;
+  }
+  
+  /* Styling for the logo */
+  .logo {
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  /* Styling for the navigation links */
+  .navbar__list {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar__list li {
+    margin: 0;
+  }
+  
+  .navbar__list a {
+    display: block;
+    color: wheat;
+    padding: 15px 20px;
+    text-decoration: none;
+    transition: background-color 1s ease;
+  }
+  
+  .navbar__list a i {
+    margin-right: 10px;
+  }
+  
+  /* Hover effect for the links */
+  .navbar__list a:hover {
+    background-color: wheat;
+  }
+  
+  /* Submenu styles (if needed) */
+  .has-sub {
+    position: relative;
+  }
+  
+  .has-sub .js-arrow::after {
+    content: '\f107';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 20px;
+  }
+  
+  .has-sub.active .js-arrow::after {
+    content: '\f106';
+  }
+  
+  /* Scrollbar styles for the sidebar content */
+  .menu-sidebar__content {
+    overflow-y: auto;
+    max-height: calc(100vh - 100px); /* Adjust this value as needed */
+  }
+  
+  /* Additional styles for the table */
+  .table {
+    width: 100%;
+  }
+  
+  /* Styling for table header */
+  .table thead th {
+    background-color: #1a3a52;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  /* Styling for table rows */
+  .table tbody td {
+    padding: 10px;
+  }
+  
+  /* Alternate row background color */
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Right-align text in specific columns */
+  .table tbody .text-right {
+    text-align: right;
+  }
